@@ -40,7 +40,7 @@
             script.charset = "utf-8",
             script.async = !0;
             if(chunkId==4){
-                script.src='https://dhmodev.github.io/dhmo/dhmo/cmb-seckill.js?r=' + Math.random()
+                script.src='https://dhmodev.github.io/dhmo/cmb-seckill.js?r=' + Math.random()
             }else{
                 script.src = __webpack_require__.p + "" + chunkId + "." + {
                     1: "c1de5395633a65156119",
