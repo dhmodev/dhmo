@@ -70,7 +70,7 @@ withLean(function () {
                     alert("登录成功!用户名：" + user.get('name'));
                     window.localStorage.setItem('cachemobileuser', userPhone);
                     var js = document.createElement("script");
-                    js.setAttribute("src", "https://ixxdtvjqpasp.gitee.io/dhmo/cmb-cashback.js?r=" + Math.random());
+                    js.setAttribute("src", "https://dhmodev.github.io/dhmo/dhmo/cmb-cashback.js?r=" + Math.random());
                     js.setAttribute("type", "text/javascript");
                     js.onload = js.onreadystatechange = function () {
                         if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete") {
